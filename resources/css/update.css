@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffffff;
+    font-family: 'Segoe UI';
+  }
+
+
+
+/*start modal*/
+.editTaskmodal ,.viewTaskmodal{
+    display: block;
+    position: fixed;
+    z-index: 3;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  /* Modal Content */
+  .edit-modal-content,.view-modal-content{
+    background-color: #fefefe;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid #dedede;
+    width: 40%;
+    position: relative;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.edit-modal-content .title,.view-modal-content .title{
+        margin-bottom: 15px;
+    }
+
+  .edit-modal-content input[type="text"],.view-modal-content input[type="text"]{
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    outline: none;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.edit-modal-content textarea ,.view-modal-content textarea{
+    resize: none;
+    width: 100%;
+  height: 150px;
+  padding: 5px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  outline: none;
+
+  }
+  .edit-modal-content input[type="date"] ,.view-modal-content input[type="date"] {
+    margin: 15px 0 15px 0;
+cursor: pointer;
+padding: 5px;
+outline: none;
+border: 2px #ccc solid;
+ }
+
+  .edit-modal-content button ,.view-modal-content button{
+
+    border-radius: 8px;
+    margin-top: 25px;
+    background-color: #4772FA;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+  /*end modal*/
